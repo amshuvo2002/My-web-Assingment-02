@@ -118,6 +118,9 @@ p{
       {
       width: 100%;
      }
+     .font-24{
+      font-size: 35px;
+     }
      .head-nav{
          padding-bottom: 80px;
          align-items: center;
@@ -139,13 +142,13 @@ p{
       grid-template-columns: repeat(2,1fr);
      }
      .main-style{
-      width: 393px;
+      width: 373px;
      }
      .Plants-info{
          margin: 20px;
      }
     .card-box{
-      width: 180px;
+      width: 170px;
       height: 340px;
     } 
     .card-img{
