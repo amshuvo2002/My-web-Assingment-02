@@ -80,6 +80,7 @@ p{
 /* main-section */
 .main-style{
   width: 1100px;
+  height: 1140px;
    margin: 1px auto;
   padding-top: 50px;
 }
@@ -102,7 +103,23 @@ p{
 .card-box{
   padding: 10px 20px 10px 0px;
 }
+/* flower-lover-section */
+.flower-lover{
+  width: 1100px;
+  height: 600px;
+  padding-top:600px;
+  display: flex;
+  gap: 50px;
+}
+.bold-3{
+  font-size: 3rem;
+}
+.shop-img{
+  width: 540px;
+  height: 600px;
+}
 
+  
 /* small-device-responsive */
 @media screen and (max-width:576px) {
     .hidden{
@@ -142,7 +159,7 @@ p{
       grid-template-columns: repeat(2,1fr);
      }
      .main-style{
-      width: 350px;
+      width: 360px;
      }
      .Plants-info{
          margin: 20px;
