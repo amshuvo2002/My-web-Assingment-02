@@ -260,6 +260,7 @@ p{
 
 
 
+
 /* small-device-responsive */
 @media screen and (max-width:576px) {
     .hidden,
@@ -344,5 +345,39 @@ p{
    .shop-2{
     font-size: 16px;
     padding-bottom: 70px;
+   }
+   .footer-bg{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+   }
+   .footer-heading{
+   padding: 70px 0px 10px 0px;
+    font-size: 1.25rem;
+   }
+   .form-responsive{
+    text-align: center;
+   }
+   .form-s{
+    width: 250px;
+    height: 40px;
+   }
+   .f-btn{
+    height: 40px;
+    width: 80px;
+   }
+   .f-info{
+    padding-bottom: 50px;
+   }
+   .footer-info{
+    flex-direction: column;
+    margin: 0px auto;
+    padding-left: 0px;
+   }
+   .footer-title{
+    margin: 0px auto;
+   }
+   .links{
+    grid-template-columns: repeat(1, 1fr);
    }
 }
