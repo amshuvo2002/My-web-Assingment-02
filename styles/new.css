@@ -223,6 +223,29 @@ p{
   height: 40px;
   border: none;
 }
+.f-ancor{
+  text-decoration: none;
+  color: #8987A1;
+}
+.f-link{
+  list-style: none;
+}
+.footer-info{
+  padding-top: 30px;
+  display: flex;
+  padding-left: 160px;
+  padding-right: 160px;
+  justify-content: space-between;
+}
+.footer-title{
+  height: 170px ;
+  width: 360px ;
+}
+.links{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
   
 /* small-device-responsive */
 @media screen and (max-width:576px) {
