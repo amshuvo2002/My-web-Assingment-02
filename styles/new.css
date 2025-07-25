@@ -80,7 +80,6 @@ p{
 /* main-section */
 .main-style{
   width: 1100px;
-  height: 1140px;
    margin: 1px auto;
   padding-top: 50px;
 }
@@ -160,10 +159,10 @@ p{
 .bg-3{
    background-image: url(../B12A02-Responsive-Flowers/assets/deal-zabo.png);
    width: 753px;
-   height: 423px;
+   height: 415px;
 }
 .bg-1, .bg-2{
-   margin-bottom: 20px;
+  margin-top: 18px;
   margin-right: 20px;
 }
 .bg-1, .bg-2, .bg-3{
@@ -173,6 +172,12 @@ p{
 }
 .deal-part{
   display: flex;
+}
+.deal-3{
+  margin-bottom: 30px;
+}
+.deal-card{
+  margin-top: 13px;
 }
 .discount{
   padding-top: 70px;
@@ -193,7 +198,31 @@ p{
   font-size: 1.7rem;
   font-weight: bold;
 }
-
+/* footer-section */
+.footer-bg{
+  background-image: url(../B12A02-Responsive-Flowers/assets/news-letter-bg.png);
+  height: 500px;
+  width: 100%;
+  text-align: center;
+}
+.footer-heading{
+  padding-top: 200px;
+  color: white;
+  font-weight: bold;
+  font-size: 3.8rem;
+}
+.f-btn{
+  border: none;
+  background-color: #E95A08;
+  color: white;
+  width: 144px;
+  height: 42px;
+}
+.form-s{
+  width: 644px;
+  height: 40px;
+  border: none;
+}
   
 /* small-device-responsive */
 @media screen and (max-width:576px) {
